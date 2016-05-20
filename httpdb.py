@@ -14,7 +14,7 @@ class myHandler(BaseHTTPRequestHandler):
     """
 
     #in memory db
-    myDB = {}
+    myDB = {"mykey": "hey there"}
 
     def do_GET(self):
         """
